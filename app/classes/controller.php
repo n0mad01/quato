@@ -6,7 +6,7 @@ class Controller {
 
 	public $errorMsg;	// error-messages for the views
 
-	public $DB;			// Database Object
+	public $DB;         // Database Object
 
 	public $collection; // Database Object
 
@@ -16,11 +16,11 @@ class Controller {
 
 	public $config;		// Whole Config file config/config.php
 	
-	public $allowed = array();			// here saved the Methods allowed to invoke 
+	public $allowed = array();          // here saved the Methods allowed to invoke 
 
-	public $authExceptions = array();	// here saved the Methods allowed to invoke without being logged in
+	public $authExceptions = array();   // here saved the Methods allowed to invoke without being logged in
 
-	protected $twitter;					// the Services_Twitter Object
+	protected $twitter;                 // the Services_Twitter Object
 
 	public function __construct() {} 
 

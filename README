@@ -1,3 +1,3 @@
-Quato - a twitter MVC framework for managing multiple accounts using mongoDB.
+Quato - a twitter MVC framework for managing multiple accounts using mongoDB, for OAuth communication is used pear's HTTP_OAuth (http://pear.php.net/package/HTTP_OAuth).
 
-Unfortunately it never came out of a early stage.
+Written somewhere between jan-feb 2011 it unfortunately never came out of a early stage.
