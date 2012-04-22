@@ -2,19 +2,19 @@
 
 class Controller {
 	
-	public $postdata;	// POST-data
+	public $postdata;   // POST-data
 
-	public $errorMsg;	// error-messages for the views
+	public $errorMsg;   // error-messages for the views
 
 	public $DB;         // Database Object
 
 	public $collection; // Database Object
 
-	public $memcache;	// Memcached Object
+	public $memcache;   // Memcached Object
 
-	public $session;	// Session Object
+	public $session;    // Session Object
 
-	public $config;		// Whole Config file config/config.php
+	public $config;     // Whole Config file config/config.php
 	
 	public $allowed = array();          // here saved the Methods allowed to invoke 
 
