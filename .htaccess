@@ -1,0 +1,9 @@
+AuthType None
+Require all granted
+Satisfy Any
+
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	rewriteCond %{request_uri} !^/index\.php$
+	rewriteRule ^([^!]+) /index.php?path=$1 [L]
+</IfModule>
